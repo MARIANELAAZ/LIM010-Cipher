@@ -17,7 +17,7 @@
   usuario podrá practicar su escritura y corregir la siguiente vez que
   codificara su mensaje.Jugar de una forma educativa
 
-   ![image](https://user-images.githubusercontent.com/51206343/59104676-c1215e80-88f7-11e9-9397-6a1ff0bc7362.png
+   ![image](https://user-images.githubusercontent.com/51206343/59104676-c1215e80-88f7-11e9-9397-6a1ff0bc7362.png)
 
 
  - Simplificar en una hoja el cifrado y decifrado, agregar boton en un

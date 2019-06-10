@@ -6,7 +6,7 @@
 	font-family: "verdana";
 }
 
-.screen-1{
+.pantalla{
   height: 100vh;
   color: #fff;
 	background-image: url(fondo1.jpg);
@@ -20,13 +20,13 @@
     margin-top:0px;
 }
 /* contraseña*/
-h2{
+h2 {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
   margin-top:350px;
 }
-.cuadroDeTexto{
+.cuadroDeTexto {
   width:300px;
 	height:50px;
 	margin-top:10px;
@@ -37,7 +37,7 @@ h2{
 	padding:0;
 }
 
-.btn{
+.btn {
   height:50px;
 	width:120px;
 	background-color:#002a45;
@@ -49,4 +49,8 @@ h2{
 	margin-left: auto;
 	font-size:20px;
 	color: #ffffff;
+}
+/*esconder-no*/
+.hide{
+ display:none;
 }

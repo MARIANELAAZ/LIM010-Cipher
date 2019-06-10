@@ -11,30 +11,26 @@
     <main>
 
     <div id="contenedor">
-    <div id="screen-1" class="screen-1">
-       <h1 class="titulo">¡Hola, Bienvenido a mensajes Detective Kids, ingresa tu contraseña!</h1>
-       <h2> CONTRASEÑA</h2>
-       <input type="password" id="contrasena" class="cuadroDeTexto"/>
-       <p id="errorpass"></p>
 
-      <button type="button" class="btn" id="btn">Click aquí</button>
+    <div id="screen1"  class = "pantalla">
+       <h1 class="titulo">¡Hola, Bienvenido a mensajes Detective Kids, ingresa tu contraseña!</h1>
+       <h2>CONTRASEÑA</h2>
+       <input type="password" id="contraseña" class="cuadroDeTexto">
+       <button type="button" class="btn" id="btn">Click aquí</button>
     </div>
 
-    <div id="screen-2" class="screen-2" style="display:none">
+    <div id="screen3" class="hide">
+        <h1 class="intentos">Ya utilizaste todos tus intentos, en este momento no podrás ingresar</h1>
+        <h2 class="fallo">intentalo nuevamente</h2>
+    </div>
 
-     	 <h1 class="Bienvenida">Detectives Kids</h1>
+    <div id="screen2" class="hide">
+       <h1 class="Bienvenida">Detectives Kids</h1>
        <h2>Para el correcto funcionamiento evitar el uso de la letra "ñ"</h2>
        <!--PIDE ESCOGER SI QUIERES DECIFRAR O CIFRAR-->
-       <button tyPara el correcto funcionamiento evitar el uso de la letra "ñ"pe="button" class="buttonCifrado" id="cifrado">cifrado</button>
-     	 <!--BOTON DE DECIFRADO-->
-     	 <button type="button" class="buttonDecifrado" id="decifrado">decifrado</button>
-
-
-    </div>
-
-    <div id="screen3" class="intento3">
-      <p>Ya utilizaste todos tus intentos, en este momento no podrás ingresar</p>
-
+      <!--<button type= "button" class="buttonCifrado" id="cifrado">cifrado</button>
+     	 <!-BOTON DE DECIFRADO-->
+     	 <!--<button type="button" class="buttonDecifrado" id="decifrado">decifrado</button>-->
     </div>
 
     </main>
