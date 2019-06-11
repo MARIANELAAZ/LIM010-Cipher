@@ -17,7 +17,7 @@ const password = contraseña.value
  }
 else {
   intentos++
-    /*alert("numeroDeIntentos:"+intentos);*/
+    alert("numeroDeIntentos:"+intentos);
   if(intentos===3){
       screen1.classList.add("hide");
       screen2.classList.add("hide");
