@@ -18,14 +18,14 @@ window.cipher = {
     ///* Acá va tu código que descifra*/
     let mensajeFinal =  "";
     let caraCifrado = " ";
-    for (let i= 0; i < mensaje.length; i++) {
-     let numeroAscii = mensaje.charCodeAt(i);
+    for (let i= 0; i < mensaje.length; i++) { /*recorre*/
+     let numeroAscii = mensaje.charCodeAt(i); /*avanza en un*/
      if (numeroAscii >=65  && numeroAscii <=90) {
         caraCifrado = (numeroAscii-65-parseInt(offset1)) % 26 + 65;/*devuelve valor númerico*/
      if (caraCifrado <65) {
         caraCifrado = caraCifrado+26;
     }
-      mensajeFinal+= String.fromCharCode(caraCifrado);
+      mensajeFinal+= String.fromCharCode(caraCifrado); /*devuelve cadena de valor*/
 
     } else {
       mensajeFinal+= mensaje[i];
