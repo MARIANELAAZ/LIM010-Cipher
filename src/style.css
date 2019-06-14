@@ -9,18 +9,18 @@
 .pantalla{
   height: 100vh;
   color: #fff;
-	background-image: url(fondo1.jpg);
+	background-image: url(prub.jpg);
 	background-size: cover;
 }
 
 .titulo{
-    font-size: 40px;
-    font-weight: normal;
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
     margin-top:0px;
 }
 /* contraseña*/
-h2 {
+.contrase {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
@@ -54,13 +54,13 @@ h2 {
 #screen2{
 	height: 100vh;
   color: #fff;
-  background-image: url(capa2.jpg);
+  background-image: url(fondo2.jpg);
   background-size: cover;
 
 }
 .Bienvenida{
   font-size: 50px;
-	font-weight: normal;
+	font-weight: bolder;
 	text-align: center;
 	margin-top:8px;
 }
@@ -78,7 +78,7 @@ h2 {
 	margin-top:9px;
 	background-color:#ffffff;
 	color: #000000;
-	font-size:10px;
+	font-size:20px;
 	text-align:left;
 	padding:0;
 }
@@ -89,11 +89,11 @@ h2 {
 	margin-top:9px;
 	background-color:#ffffff;
 	color: #000000;
-	font-size:10px;
+	font-size:20px;
 	text-align:left;
 	padding:0;
 }
-.offset{
+.offset {
 	width:40px;
 	height:30px;
 	margin-top:10px;
@@ -102,11 +102,30 @@ h2 {
 	font-size:20px;
 	text-align:right;
 	padding:0;
+	}
+
+.intentos{
+	font-size: 19px;
+	font-weight: bold;
+	margin-top:350px;
+	color: #000000;
+	text-align: center;
+	padding: 0;
 }
 #screen3{
-
+	height: 100vh;
+	background-image: url(mensaje3.jpg);
+	background-size: cover;
+	margin-top:0px;
 }
-
+.pie{
+	font-size: 10px;
+	font-weight: normal;
+	margin-top:0px;
+	color: #000000;
+	text-align: center;
+	padding: 0px;
+}
 /*esconder-no*/
 .hide{
  display:none;
